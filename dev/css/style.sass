@@ -1,0 +1,181 @@
+.container
+  max-width: 1050px
+
+header
+  .logo, .tagline
+    height: 60px
+  .logo
+    background: url("../img/logo.png") no-repeat
+  .tagline
+    color: #007360
+    font-size: 2.1em
+    font-weight: 600
+    line-height: 60px
+    text-align: right
+    text-transform: uppercase
+  .banner
+    background: url("../img/banner.jpg") no-repeat
+    background-position-x: center
+    height: 478px
+    margin-bottom: 30px
+    background-size: auto
+
+main
+  color: #000
+  .container
+    padding: 0
+  .anti-virus, .internet-security, .multi-device
+    width: 350px
+    padding: 0
+    .header
+      height: 78px
+      padding-top: 90px
+      .short-description
+        text-transform: uppercase
+        font-family: "Roboto"
+        font-size: 1.3em
+        font-weight: 600
+    .prices
+      background-position-x: center !important
+      max-width: 95%
+      margin-top: 20px
+      padding-top: 300px
+      margin-bottom: 40px
+      margin: 0 auto
+      .quantity
+        font-weight: 600
+        float: left
+        width: 106px
+        font-size: large
+        line-height: 38px
+      .price
+        display: inline-block
+        width: 106px
+        .old-price
+          text-decoration: line-through
+        .new-price
+          color: #00a098
+          font-size: 1.5em
+          font-weight: 700
+      .buy
+        float: right
+        width: 120px
+    .description
+      margin-top: 54px
+      .title
+        color: #fff
+        height: 34px
+        line-height: 34px
+        max-width: 95%
+        text-transform: uppercase
+        text-align: center
+        margin: 0 auto
+      hr
+        width: 95%
+    ul.details
+      padding: 0 10px 0 10px
+      list-style-type: none
+    li
+      padding: 7px 0 7px 35px
+      background-position-y: center !important
+    li.protection
+      background: url("../img/icon-kaspersky.png") no-repeat
+    li.pc
+      background: url("../img/icon-pc.png") no-repeat
+    li.updates
+      background: url("../img/icon-updates.png") no-repeat
+    li.card
+      background: url("../img/icon-card.png") no-repeat
+    li.parental
+      background: url("../img/icon-parental.png") no-repeat
+    li.camera
+      background: url("../img/icon-camera.png") no-repeat
+    li.wifi
+      background: url("../img/icon-wifi.png") no-repeat
+    li.devices
+      background: url("../img/icon-devices.png") no-repeat
+    hr
+      border: solid 2px #6c7073
+  .anti-virus
+    float: left
+    .header
+      background: url("../img/esential.jpg") no-repeat
+      .keyword
+        color: #00a098
+    .prices
+      background: url("../img/esential.png") no-repeat
+    .title
+      background: #00a098
+  .internet-security
+    .header
+      background: url("../img/internet.jpg") no-repeat
+      .keyword
+        color: #97187d
+    .prices
+      background: url("../img/internet.png") no-repeat
+    .description
+      display: block
+      .title
+        background: #961981
+  .multi-device
+    float: right
+    .header
+      background: url("../img/device.jpg") no-repeat
+      .keyword
+        color: #e30613
+    .prices
+      background: url("../img/device.png") no-repeat
+    .title
+      background: #e30613
+
+footer
+  background: #5a6f79
+  color: #fff
+  .row
+    .copyright
+      padding: 20px 0 0 30px
+      .bold
+        font-weight: 600
+    .contacts
+      font-size: 12px
+      line-height: 105px
+      text-align: center
+    .social
+      ul
+        list-style-type: none
+        line-height: 95px
+      li
+        float: left
+      li a
+        display: block
+        padding: 5px
+
+@media (max-width: 767px)
+  header
+    .logo
+      background-position-x: center
+    .tagline
+      text-align: center
+      line-height: 30px
+      margin-bottom: 50px
+
+  main
+    .anti-virus, .internet-security, .multi-device
+      text-align: center
+      float: none
+      margin: 0 auto
+      .description
+        margin-top: 27px
+        .title
+          margin: 0 auto
+    .internet-security
+      display: block
+
+  footer
+    .row
+      .copyright, .contacts
+        text-align: center
+      .copyright
+        padding: 30px 20px 20px 20px
+      .contacts
+        line-height: 50px

@@ -1,0 +1,174 @@
+.container {
+  max-width: 1050px; }
+
+header .logo, header .tagline {
+  height: 60px; }
+
+header .logo {
+  background: url("../img/logo.png") no-repeat; }
+
+header .tagline {
+  color: #007360;
+  font-size: 2.1em;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: right;
+  text-transform: uppercase; }
+
+header .banner {
+  background: url("../img/banner.jpg") no-repeat;
+  background-position-x: center;
+  height: 478px;
+  margin-bottom: 30px;
+  background-size: auto; }
+
+main {
+  color: #000; }
+  main .container {
+    padding: 0; }
+  main .anti-virus, main .internet-security, main .multi-device {
+    width: 350px;
+    padding: 0; }
+    main .anti-virus .header, main .internet-security .header, main .multi-device .header {
+      height: 78px;
+      padding-top: 90px; }
+      main .anti-virus .header .short-description, main .internet-security .header .short-description, main .multi-device .header .short-description {
+        text-transform: uppercase;
+        font-family: "Roboto";
+        font-size: 1.3em;
+        font-weight: 600; }
+    main .anti-virus .prices, main .internet-security .prices, main .multi-device .prices {
+      background-position-x: center !important;
+      max-width: 95%;
+      margin-top: 20px;
+      padding-top: 300px;
+      margin-bottom: 40px;
+      margin: 0 auto; }
+      main .anti-virus .prices .quantity, main .internet-security .prices .quantity, main .multi-device .prices .quantity {
+        font-weight: 600;
+        float: left;
+        width: 106px;
+        font-size: large;
+        line-height: 38px; }
+      main .anti-virus .prices .price, main .internet-security .prices .price, main .multi-device .prices .price {
+        display: inline-block;
+        width: 106px; }
+        main .anti-virus .prices .price .old-price, main .internet-security .prices .price .old-price, main .multi-device .prices .price .old-price {
+          text-decoration: line-through; }
+        main .anti-virus .prices .price .new-price, main .internet-security .prices .price .new-price, main .multi-device .prices .price .new-price {
+          color: #00a098;
+          font-size: 1.5em;
+          font-weight: 700; }
+      main .anti-virus .prices .buy, main .internet-security .prices .buy, main .multi-device .prices .buy {
+        float: right;
+        width: 120px; }
+    main .anti-virus .description, main .internet-security .description, main .multi-device .description {
+      margin-top: 54px; }
+      main .anti-virus .description .title, main .internet-security .description .title, main .multi-device .description .title {
+        color: #fff;
+        height: 34px;
+        line-height: 34px;
+        max-width: 95%;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto; }
+      main .anti-virus .description hr, main .internet-security .description hr, main .multi-device .description hr {
+        width: 95%; }
+    main .anti-virus ul.details, main .internet-security ul.details, main .multi-device ul.details {
+      padding: 0 10px 0 10px;
+      list-style-type: none; }
+    main .anti-virus li, main .internet-security li, main .multi-device li {
+      padding: 7px 0 7px 35px;
+      background-position-y: center !important; }
+    main .anti-virus li.protection, main .internet-security li.protection, main .multi-device li.protection {
+      background: url("../img/icon-kaspersky.png") no-repeat; }
+    main .anti-virus li.pc, main .internet-security li.pc, main .multi-device li.pc {
+      background: url("../img/icon-pc.png") no-repeat; }
+    main .anti-virus li.updates, main .internet-security li.updates, main .multi-device li.updates {
+      background: url("../img/icon-updates.png") no-repeat; }
+    main .anti-virus li.card, main .internet-security li.card, main .multi-device li.card {
+      background: url("../img/icon-card.png") no-repeat; }
+    main .anti-virus li.parental, main .internet-security li.parental, main .multi-device li.parental {
+      background: url("../img/icon-parental.png") no-repeat; }
+    main .anti-virus li.camera, main .internet-security li.camera, main .multi-device li.camera {
+      background: url("../img/icon-camera.png") no-repeat; }
+    main .anti-virus li.wifi, main .internet-security li.wifi, main .multi-device li.wifi {
+      background: url("../img/icon-wifi.png") no-repeat; }
+    main .anti-virus li.devices, main .internet-security li.devices, main .multi-device li.devices {
+      background: url("../img/icon-devices.png") no-repeat; }
+    main .anti-virus hr, main .internet-security hr, main .multi-device hr {
+      border: solid 2px #6c7073; }
+  main .anti-virus {
+    float: left; }
+    main .anti-virus .header {
+      background: url("../img/esential.jpg") no-repeat; }
+      main .anti-virus .header .keyword {
+        color: #00a098; }
+    main .anti-virus .prices {
+      background: url("../img/esential.png") no-repeat; }
+    main .anti-virus .title {
+      background: #00a098; }
+  main .internet-security .header {
+    background: url("../img/internet.jpg") no-repeat; }
+    main .internet-security .header .keyword {
+      color: #97187d; }
+  main .internet-security .prices {
+    background: url("../img/internet.png") no-repeat; }
+  main .internet-security .description {
+    display: block; }
+    main .internet-security .description .title {
+      background: #961981; }
+  main .multi-device {
+    float: right; }
+    main .multi-device .header {
+      background: url("../img/device.jpg") no-repeat; }
+      main .multi-device .header .keyword {
+        color: #e30613; }
+    main .multi-device .prices {
+      background: url("../img/device.png") no-repeat; }
+    main .multi-device .title {
+      background: #e30613; }
+
+footer {
+  background: #5a6f79;
+  color: #fff; }
+  footer .row .copyright {
+    padding: 20px 0 0 30px; }
+    footer .row .copyright .bold {
+      font-weight: 600; }
+  footer .row .contacts {
+    font-size: 12px;
+    line-height: 105px;
+    text-align: center; }
+  footer .row .social ul {
+    list-style-type: none;
+    line-height: 95px; }
+  footer .row .social li {
+    float: left; }
+  footer .row .social li a {
+    display: block;
+    padding: 5px; }
+
+@media (max-width: 767px) {
+  header .logo {
+    background-position-x: center; }
+  header .tagline {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px; }
+  main .anti-virus, main .internet-security, main .multi-device {
+    text-align: center;
+    float: none;
+    margin: 0 auto; }
+    main .anti-virus .description, main .internet-security .description, main .multi-device .description {
+      margin-top: 27px; }
+      main .anti-virus .description .title, main .internet-security .description .title, main .multi-device .description .title {
+        margin: 0 auto; }
+  main .internet-security {
+    display: block; }
+  footer .row .copyright, footer .row .contacts {
+    text-align: center; }
+  footer .row .copyright {
+    padding: 30px 20px 20px 20px; }
+  footer .row .contacts {
+    line-height: 50px; } }
