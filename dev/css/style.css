@@ -141,6 +141,7 @@ footer {
     line-height: 105px;
     text-align: center; }
   footer .row .social ul {
+    float: right;
     list-style-type: none;
     line-height: 95px; }
   footer .row .social li {
@@ -171,4 +172,10 @@ footer {
   footer .row .copyright {
     padding: 30px 20px 20px 20px; }
   footer .row .contacts {
-    line-height: 50px; } }
+    line-height: 50px; }
+  footer .row .social .social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-inline-start: 0;
+    width: 0; } }

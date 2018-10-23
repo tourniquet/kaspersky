@@ -11596,6 +11596,7 @@ footer .row .contacts {
 }
 
 footer .row .social ul {
+  float: right;
   list-style-type: none;
   line-height: 95px;
 }
@@ -11655,5 +11656,18 @@ footer .row .social li a {
 
   footer .row .contacts {
     line-height: 50px;
+  }
+
+  footer .row .social .social-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+    padding-inline-start: 0;
+    width: 0;
   }
 }
